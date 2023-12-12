@@ -11,8 +11,8 @@ function handleFileSelect(event) {
         const imageUrl = URL.createObjectURL(file);
         const link = document.createElement('a');
         link.href = imageUrl;
-        link.textContent = `View Image ${file.name}`;
-        link.target = '_blank';
+        link.download = file.name; // Add this to enable downloading
+        link.textContent = `Download Image ${file.name}`;
         imageLinksContainer.appendChild(link);
     }
 }
