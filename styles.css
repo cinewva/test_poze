@@ -1,0 +1,14 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#imageLinks {
+    margin-top: 20px;
+}
+
+a {
+    display: block;
+    margin-bottom: 10px;
+}
